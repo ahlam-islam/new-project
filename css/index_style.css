@@ -1,0 +1,74 @@
+.navbar
+{
+    z-index: 5;
+}
+
+
+.items a
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.015rem;
+    margin-right: 1.8rem ;
+    color: #fff ;
+    transition: 0.5s;
+}
+
+.items a:hover
+{
+    color: #6f6f6f;
+}
+
+/*----------------------------------------------------------------*/
+
+#home
+{
+    height: 100vh;
+    background-image: url(../img/home.jpg);
+    background-size: cover;
+    background-position: 0px 0px;
+      background-attachment: fixed;
+}
+
+.shadow
+{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+.welcom
+{
+    width: 2rem;
+    height: 2rem;
+    background-color: #ff214f;
+    padding-top: 3px;
+    position: absolute;
+    bottom: 4rem;
+    left: 50%;
+
+}
+.welcom a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+/*----------------------------------------------------------------*/
+
+.up h4
+{
+    font-size: 1.1rem;
+    color: #ff214f;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+.up h3
+{
+  color: #000;
+  font-size: 1.9rem;
+  font-weight: 300;
+  line-height: 40px;
+}
+
+/*-------------------------------------*/
