@@ -72,3 +72,39 @@
 }
 
 /*-------------------------------------*/
+
+
+
+/********************* start amr css********* */
+
+.card {
+    align-items: center;
+    
+}
+.card a{
+    text-decoration: none;
+    color: #000;
+    font-size: 22px;
+}
+.card a:hover{
+    color: #0078ff;
+}
+.card p{
+    padding-top: 10px;
+}.card-footer{
+    width: 100%;
+    padding: .35rem 1rem;
+}
+.card-images img{
+    width: 45px;
+    height: 45px;
+}
+.badge{
+    position: absolute;
+    padding:  10px 10px;
+    bottom: 12rem;
+    border-radius: 5px;
+}
+
+
+/********************* end amr css ********* */
