@@ -108,3 +108,152 @@
 
 
 /********************* end amr css ********* */
+
+
+/*------------------------about-----------------------------*/
+h2
+{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 0.36rem;
+    color: #000000;
+    position: relative;
+}
+
+h2::before
+{
+    content: "";
+    width: 7rem;
+    height: 0.14rem;
+    background-color: #cf1767;
+    position: absolute;
+    top: -1.6rem;
+    left: 0px;
+}
+
+.half h4
+{
+    font-family: 'Lora', serif;
+    font-size: 1.84rem;
+    font-weight: 500;
+    line-height: 1.64;
+    color: #000;
+    
+}
+
+.half p
+{
+    font-family: inherit;
+    font-size: inherit;
+    line-height: 2;
+    color: #000;
+}
+
+.half .pra
+{
+    margin-bottom: 7.1rem!important;
+}
+.half .bottom
+{
+    background-color:#000;
+    color: #fff;
+}
+.half a:hover
+{
+    background-color: #000;
+}
+.half .bottom:hover
+{
+    background-color: #cf1767;
+    color: #fff;
+    border: 1px solid #cf1767;
+}
+
+/*---------------------------------------------*/
+
+.one span
+{
+    font-size: 0.96rem;
+    letter-spacing: 0.23rem;
+    font-weight: 400;
+    color: #000;
+    line-height: 1.714;
+    font-family: "Roboto", sans-serif;
+}
+
+.one h4
+{
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 2.3rem;
+    font-weight: 500;
+    color: #000;
+    line-height: 1.222;
+    margin-top: 1.2rem;
+    position: relative;
+}
+.one h4::before
+{
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 3rem;
+    top: 0px;
+    left: -2.45rem;
+    background-color: #000;
+}
+
+
+.one h5
+{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.34rem;
+    font-weight: 400;
+     line-height: 1.333;
+     margin-bottom: 2rem;
+}
+
+.one p
+{
+    font-size: 1.1rem;
+    margin-bottom: 5rem;
+}
+.right i
+{
+    border: 1px solid rgba(0, 0, 0, 0.12);
+
+}
+.icon
+{
+    position: relative;
+
+}
+
+.icon::before
+{
+    content: "";
+    width: 1px;
+    height: 2.6rem;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.12);
+    top: 3rem;
+    transform: rotate(90deg);
+    left: -1.14rem;
+
+}
+.left-line
+{
+    position: relative;
+}
+
+.left-line::before
+{
+    content: "";
+    height: 86%;
+    width: 1px;
+    background-color: rgba(0, 0, 0, 0.12);
+    position: absolute;
+    top: 5.8rem;
+    left: 0px;
+}
+
